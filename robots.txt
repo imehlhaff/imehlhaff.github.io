@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://imehlhaff.github.io/sitemap.xml
