@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Postdoctoral Scholar</p>
-    <p>Data Science Institute</p>
-    <p>The University of Chicago</p>
+    <p>Assistant Professor</p>
+    <p>Department of Political Science</p>
+    <p>Texas A&M University</p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Welcome! I am a Postdoctoral Scholar in the [Data Science Institute](https://datascience.uchicago.edu) at The University of Chicago, where I am also affiliated with the [Department of Political Science](https://political-science.uchicago.edu). Beginning in fall 2024, I will be an Assistant Professor in the [Department of Political Science](https://bush.tamu.edu/pols/) at Texas A&M University. 
+Welcome! I am an Assistant Professor in the [Department of Political Science](https://bush.tamu.edu/pols/) at Texas A&M University. Previously, I was a Postdoctoral Scholar in the [Data Science Institute](https://datascience.uchicago.edu) at The University of Chicago, where I was also affiliated with the [Department of Political Science](https://political-science.uchicago.edu).
 
 My research is driven by substantive questions in public opinion and political psychology: How and why do citizens change their attitudes on political issues? How do these attitude changes drive mass polarization? How is polarization causally related to other features of government and society? As a computational social scientist, I answer these questions by using and developing rigorous methods in natural language processing, Bayesian statistics, and causal inference, with a particular focus on high-quality measurement. 
 
