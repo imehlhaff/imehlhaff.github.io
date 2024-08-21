@@ -305,8 +305,8 @@ scholar:
 
   query: "@*"
   group_by: type
-  type_order: [book, article, unpublished, misc]
-  type_names: {book: Book, article: Peer-Reviewed<br>Journal Articles, unpublished: Under Review, misc: Working Papers}
+  type_order: [book, article, inproceedings, unpublished, misc]
+  type_names: {book: Book, article: Peer-Reviewed<br>Journal Articles, inproceedings: Peer-Reviewed<br>Conference<br>Proceedings, unpublished: Under Review, misc: Working Papers}
   # group_order: descending
   # sort_by: month
   # sort_order: ascending

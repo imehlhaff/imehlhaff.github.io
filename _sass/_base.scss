@@ -668,6 +668,14 @@ footer.sticky-bottom {
     text-align: right;
   }
 
+  ol.bibliography:nth-of-type(2) { //journal articles
+    margin-top: -4rem; 
+  }
+
+  ol.bibliography:nth-of-type(3) { //conference proceedings
+    margin-top: -7rem; 
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;

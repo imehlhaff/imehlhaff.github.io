@@ -9,7 +9,7 @@ BOOKS
   note = {under contract},
   publisher = {{Cambridge University Press}},
   location = {{New York}},
-  preview = {ideology2010.pdf},
+  preview = {ideology2010.jpg},
   bibtex_show = {true},
   abstract = {Mass polarization is one of the defining features of politics in the twenty-first century, but efforts to understand its causes and effects are often hindered by empirical challenges related to measurement and data availability. To address these challenges and provide a common standard of analysis for researchers, I present the Polarization in Comparative Attitudes Project (PolarCAP). PolarCAP clearly defines polarization as a property of group relations and uses a Bayesian measurement model to estimate smooth panels of ideological and affective polarization across ninety-two countries and forty-nine years. I use these data to provide a descriptive account of mass polarization across time and space. I further show how PolarCAP facilitates substantive inference by applying it to three sets of variables often hypothesized as causes or consequences of polarization: institutional design, economic crisis, and democracy. Open-source software makes PolarCAP easily accessible to scholars and practitioners.},
   software = {https://imehlhaff.github.io/PolarCAP/}
@@ -20,11 +20,15 @@ PEER-REVIEWED JOURNAL ARTICLES
 @article{MehlhaffAPSR,
   title = {A {{Group-Based Approach}} to {{Measuring Polarization}}},
   author = {Mehlhaff, Isaac D.},
-  note = {forthcoming},
+  year = {2024},
+  month = aug,
   journal = {American Political Science Review},
+  volume = {118},
+  number = {3},
+  pages = {1518--1526},
   abstract = {Despite polarization's growing importance in social science, its quantitative measurement has lagged behind its conceptual development. Political and social polarization are group-based phenomena characterized by intergroup heterogeneity and intragroup homogeneity, but existing measures capture only one of these features or make it difficult to compare across cases or over time. To bring the concept and measurement of polarization into closer alignment, I introduce the cluster-polarization coefficient (CPC), a measure of multimodality that allows scholars to incorporate multiple variables and compare across contexts with varying numbers of parties or social groups. Three applications to elite and mass polarization demonstrate that the CPC returns substantively sensible results, and an open-source software package implements the measure.},
   bibtex_show = {true},
-  preview = {figure1.pdf},
+  preview = {apsr.jpg},
   doi = {https://doi.org/10.1017/S0003055423001041},
   html = {https://doi.org/10.1017/S0003055423001041},
   supp = {https://www.cambridge.org/core/journals/american-political-science-review/article/groupbased-approach-to-measuring-polarization/7979CFDC243FB1E21FE7AE3724B42EEA#supplementary-materials},
@@ -90,24 +94,32 @@ PEER-REVIEWED JOURNAL ARTICLES
   altmetric = {true}
 }
 
-UNDER REVIEW
+PEER-REVIEWED CONFERENCE PROCEEDINGS
 
-@unpublished{Farzammultitask,
+@inproceedings{Farzammultitask,
   title = {Multi-{{Task Learning Improves Performance}} in {{Deep Argument Mining Models}}},
   author = {Farzam, Amirhossein and Shekhar, Shashank and Mehlhaff, Isaac D. and Morucci, Marco},
-  arxiv = {2307.01401},
+  year = {2024},
+  month = aug,
+  booktitle = {Proceedings of the 11th Workshop on Argument Mining},
+  publisher = {Association for Computational Linguistics},
+  address = {Bangkok, Thailand},
+  pages = {46-58},
   abstract = {The successful analysis of argumentative techniques from user-generated text is central to many downstream tasks such as political and market analysis. Recent argument mining tools use state-of-the-art deep learning methods to extract and annotate argumentative techniques from various online text corpora, however each task is treated as separate and different bespoke models are fine-tuned for each dataset. We show that different argument mining tasks share common semantic and logical structure by implementing a multi-task approach to argument mining that achieves better performance than state-of-the-art methods for the same problems. Our model builds a shared representation of the input text that is common to all tasks and exploits similarities between tasks in order to further boost performance via parameter-sharing. Our results are important for argument mining as they show that different tasks share substantial similarities and suggest a holistic approach to the extraction of argumentative techniques from text.},
   bibtex_show = {true},
-  preview = {network_diagram.png},
+  html = {https://aclanthology.org/2024.argmining-1.5/},
+  preview = {acl.png},
   poster = {AM.pdf}
 }
 
+UNDER REVIEW
+
 @unpublished{Hetheringtonworldview,
-  title = {More {{Than}} a {{Partisan Pandemic}}: {{Worldview}} and {{COVID-19 Response}} in the {{United States}}},
+  title = {More {{Than}} a {{Partisan Pandemic}}: {{Worldview}} and {{COVID-19 Response}}<br>in the {{United States}}},
   author = {Hetherington, Marc J. and Engelhardt, Andrew M. and Mehlhaff, Isaac D.},
   abstract = {As the COVID-19 pandemic unfolded, public responses increasingly divided along political lines: Democrats tended to support policies and behaviors recommended by public health experts and Republicans tended to oppose them. We argue that exclusively party-based explanations for these patterns are incomplete. Instead, we call attention to people's philosophy about life---their ``worldview''--- as an important force behind their pandemic responses. We posit that citizens use beliefs derived from interactions with their everyday life to inform their affinities and preferences when analogous matters enter the political realm. Using original cross-sectional and panel survey data gathered over the course of the pandemic, we theorize and empirically validate a multidimensional measure of worldview. We show that worldview is a coherent, belief-system-like entity that remained stable during the pandemic, suggesting its centrality in mass responses to uncertain and novel stimuli. We then show that even before strong party cues emerged, worldview structured Americans' reactions to COVID-19 and constrained the positions parties could take. Worldview's influence was both direct and indirect, channeled through its relationship with partisan preference. While partisanship is a potent force in political belief systems, much of its effect, we suggest, comes from its association with people's general philosophy about life.},
   bibtex_show = {true},
-  preview = {US_cfa1.pdf}
+  preview = {US_cfa1.jpg}
 }
 
 @unpublished{Luskinpolling,
@@ -125,7 +137,7 @@ WORKING PAPERS
   author = {Mehlhaff, Isaac D.},
   abstract = {Multilevel regression with poststratification (MRP) is by now the method of choice for estimating subnational quantities of interest. Scholars have proposed several methods of employing MRP on time series data, but there is limited understanding of which model specifications are most reliable under different conditions. I evaluate the effectiveness of six dynamic MRP models in estimating subnational public opinion over time. Evidence from twenty-nine policy issues reveals substantial variation in model performance, indicating the importance of careful model selection. Monte Carlo simulations using synthetic survey data show the accuracy and efficiency of each model can vary with temporal volatility in state-level opinion, the number of observed time periods, and sample size. When an appropriate model is used, dynamic MRP offers a promising method both for estimating subnational time series and for improving estimates in a single time period. I conclude with recommendations for model selection.},
   bibtex_show = {true},
-  preview = {CES_RMSE.pdf},
+  preview = {CES_RMSE.jpg},
   pdf = {MRP.pdf},
   supp = {MRP_supp.pdf}
 }
@@ -135,9 +147,10 @@ WORKING PAPERS
   author = {Mehlhaff, Isaac D.},
   abstract = {An antagonistic political culture has long been thought to pose a threat to liberal democracy. More recently, many scholars have proposed a link between political polarization and democratic breakdown, yet causal evidence for this prominent theory remains thin. I present the first broadly comparative analysis of the relationship between mass polarization and democratic backsliding, the modal form of autocratic reversion in the post-third wave era. Panel estimates of ideological and affective polarization from as many as ninety countries and forty-nine years indicate that both ideological and affective polarization exert negligible causal effects on levels of electoral and liberal democracy. To the contrary, results suggest that democratic decline may actually foment mass polarization. Despite widespread concern over the fate of democracy in polarized polities, comparative evidence since the start of the third wave suggests that mass polarization itself poses little threat to democratic regimes.},
   bibtex_show = {true},
-  preview = {polar_ci_models.pdf},
+  preview = {polar_ci_models.jpg},
   pdf = {democracy.pdf},
-  supp = {democracy_supp.pdf}
+  supp = {democracy_supp.pdf},
+  blog = {https://datascience.uchicago.edu/insights/does-political-polarization-really-undermine-democracy-maybe-not/}
 }
 
 @misc{Mehlhaffreddit,
@@ -145,7 +158,7 @@ WORKING PAPERS
   author = {Mehlhaff, Isaac D.},
   abstract = {Prevailing theories of public opinion and political psychology hold that human reasoning is biased and lazy, which suggests it is ill-suited to help ordinary citizens engage meaningfully with politics. In contrast, I contend that the biased and lazy nature of reasoning is precisely what gives citizens the tools to think through political issues and update their attitudes in response to argumentative exchanges. To test these hypotheses, I train a series of deep neural networks to classify textual inputs on several characteristics of discussion and argumentation. I use these classifiers to annotate over one million comments from the Reddit social media platform and show that attitude change is substantially more likely to result from argumentative exchanges rather than more contemplative ones. Results suggest that under the right conditions, humans can be quite skilled political reasoners.},
   bibtex_show = {true},
-  preview = {num_comments.pdf},
+  preview = {num_comments.jpg},
   pdf = {reddit.pdf},
   supp = {reddit_supp.pdf}
 }
