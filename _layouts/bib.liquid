@@ -194,6 +194,9 @@
       {% if entry.html %}
         <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">Article</a>
       {% endif %}
+      {% if entry.html_book %}
+        <a href="{{ entry.html_book }}" class="btn btn-sm z-depth-0" role="button">Book</a>
+      {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
           <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
