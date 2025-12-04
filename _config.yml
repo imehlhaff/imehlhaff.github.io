@@ -286,7 +286,7 @@ scholar:
   last_name: [Mehlhaff]
   first_name: [Isaac D.]
 
-  style: chicago-fullnote-bibliography #available styles: https://github.com/citation-style-language/styles
+  style: chicago-notes-bibliography #available styles: https://github.com/citation-style-language/styles
   locale: en
 
   source: /_bibliography/
