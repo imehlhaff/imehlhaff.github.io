@@ -6,6 +6,9 @@ nav: true
 nav_order: 3
 ---
 
+**PLSC 20150: The Art of Productive Political Debate** (Winter 2026) \
+[[Syllabus]](/assets/pdf/PLSC20150_syllabus.pdf) 
+
 **PLSC 30500: Introduction to Quantitative Social Science** (Fall 2025) \
 [[Syllabus]](/assets/pdf/PLSC30500_syllabus.pdf) [[Sample Slides]](/assets/pdf/PLSC30500_slides.pdf)
 
