@@ -6,6 +6,9 @@ nav: true
 nav_order: 3
 ---
 
+**SOSC 13300: Social Science Inquiry III** (Spring 2026) \
+[[Syllabus]](/assets/pdf/SOSC13300_syllabus.pdf) 
+
 **PLSC 20150: The Art of Productive Political Debate** (Winter 2026) \
 [[Syllabus]](/assets/pdf/PLSC20150_syllabus.pdf) 
 
