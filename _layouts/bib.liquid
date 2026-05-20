@@ -73,6 +73,10 @@
           {% comment %} {% if forloop.first == false %}{{- ',' | append: ' ' }}{% endif %} {% endcomment %}
           {% if forloop.last and author_array_limit == author_array_size %}and{% endif %}
         {% endif %}
+        {% assign author_separator = ' ' %}
+        {% if forloop.last == false and author_array_size > 2 or author_array_limit < author_array_size %}
+          {% assign author_separator = ', ' %}
+        {% endif %}
         {% if forloop.last %}
           {% if author_is_self %}
             <strong>
@@ -94,17 +98,17 @@
           {% if author_is_self %}
             <strong>
               {{ author.first }}
-              {{ author.last | append: ', ' }}
+              {{ author.last | append: author_separator }}
             </strong>
           {% else %}
             {% if coauthor_url %}
               <a href="{{coauthor_url}}">
                 {{ author.first }}
-                {{ author.last | append: ', ' }}
+                {{ author.last | append: author_separator }}
               </a>
             {% else %}
               {{ author.first }}
-              {{ author.last | append: ', ' }}
+              {{ author.last | append: author_separator }}
             {% endif %}
           {% endif %}
         {% endif %}
