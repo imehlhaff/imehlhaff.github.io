@@ -10,4 +10,7 @@ children:
   - title: divider
   - title: PolarCAP
     permalink: https://imehlhaff.github.io/PolarCAP/
+  - title: divider
+  - title: multitask
+    permalink: https://pypi.org/project/multitask-py/
 ---
