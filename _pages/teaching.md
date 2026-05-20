@@ -23,6 +23,3 @@ nav_order: 3
 
 **POLI 100: American Democracy in Changing Times** (Fall 2019) \
 [[Syllabus]](/assets/pdf/POLI100_syllabus.pdf) [[Sample Slides]](/assets/pdf/POLI100_slides.pdf)
-
-**Miscellaneous** \
-[[How to Read Academic Material]](/assets/pdf/reading_strategies.pdf) [[Research Paper Template]](/assets/pdf/paper_template.pdf) [[Generative AI in Methods Courses]](/assets/pdf/GAI_policy.pdf)
