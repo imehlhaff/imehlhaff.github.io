@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+DOCKER_BIN="/Applications/Docker.app/Contents/Resources/bin/docker"
+DOCKER_RESOURCES_BIN="/Applications/Docker.app/Contents/Resources/bin"
+
+if [[ ":$PATH:" != *":$DOCKER_RESOURCES_BIN:"* ]]; then
+  export PATH="$DOCKER_RESOURCES_BIN:$PATH"
+fi
+
+if [[ ! -x "$DOCKER_BIN" ]]; then
+  echo "Docker Desktop CLI not found at $DOCKER_BIN"
+  echo "Install Docker Desktop from https://www.docker.com/products/docker-desktop/"
+  exit 1
+fi
+
+if ! "$DOCKER_BIN" info >/dev/null 2>&1; then
+  echo "Starting Docker Desktop..."
+  open /Applications/Docker.app
+  for _ in {1..60}; do
+    if "$DOCKER_BIN" info >/dev/null 2>&1; then
+      break
+    fi
+    sleep 2
+  done
+fi
+
+if ! "$DOCKER_BIN" info >/dev/null 2>&1; then
+  echo "Docker daemon is not ready. Open Docker Desktop and try again."
+  exit 1
+fi
+
+exec "$DOCKER_BIN" compose up

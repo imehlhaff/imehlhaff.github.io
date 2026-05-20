@@ -44,14 +44,40 @@ Using Docker to install Jekyll and Ruby dependencies is the easiest way.
 You need to take the following steps to get `al-folio` up and running on your local machine:
 
 - First, install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
-- Finally, run the following command that will pull the latest pre-built image from DockerHub and will run your website.
+- Start Docker Desktop and wait until Docker is running.
+- From the repository root, run:
+
+```bash
+$ ./bin/dev
+```
+
+- Open your browser at `http://localhost:8080`.
+- Edit files in this repository and the site will auto-rebuild.
+
+If you prefer running compose commands directly, use:
 
 ```bash
 $ docker compose pull
 $ docker compose up
 ```
 
-Note that when you run it for the first time, it will download a docker image of size 400MB or so. To see the template running, open your browser and go to `http://localhost:8080`. You should see a copy of the theme's demo website.
+Useful commands:
+
+```bash
+# start in detached mode
+$ docker compose up -d
+
+# view logs
+$ docker compose logs -f jekyll
+
+# stop local server
+$ docker compose down
+
+# rebuild image after Dockerfile/dependency changes
+$ docker compose up --build
+```
+
+Note that when you run it for the first time, it will download a docker image of size 400MB or so, install gems, and may convert notebook content. The first startup can take a few minutes. To see the template running, open your browser and go to `http://localhost:8080`. You should see a copy of the theme's demo website.
 
 Now, feel free to customize the theme however you like (don't forget to change the name!). Also, your changes should be automatically rendered in real-time (or maybe after a few seconds).
 
