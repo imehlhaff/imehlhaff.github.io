@@ -6,14 +6,17 @@ nav: true
 nav_order: 3
 ---
 
-**SOSC 13300: Social Science Inquiry III** (Spring 2026) \
+**SOSC 13300: Social Science Inquiry III** (Spring 2026, 2027) \
 [[Syllabus]](/assets/pdf/SOSC13300_syllabus.pdf) 
+
+**PLSC/DATA 40501: Machine Learning in the Social Sciences** (Fall 2026) \
+[[Syllabus]](/assets/pdf/PLSC_DATA40501_syllabus.pdf) [[Sample Slides]](/assets/pdf/PLSC_DATA40501_slides.pdf)
+
+**PLSC 30500: Introduction to Quantitative Social Science** (Fall 2025, 2026) \
+[[Syllabus]](/assets/pdf/PLSC30500_syllabus.pdf) [[Sample Slides]](/assets/pdf/PLSC30500_slides.pdf)
 
 **PLSC 20150: The Art of Productive Political Debate** (Winter 2026) \
 [[Syllabus]](/assets/pdf/PLSC20150_syllabus.pdf) 
-
-**PLSC 30500: Introduction to Quantitative Social Science** (Fall 2025) \
-[[Syllabus]](/assets/pdf/PLSC30500_syllabus.pdf) [[Sample Slides]](/assets/pdf/PLSC30500_slides.pdf)
 
 **POLS 309: Polimetrics** (Fall 2024) \
 [[Syllabus]](/assets/pdf/POLS309_syllabus.pdf) [[Sample Slides]](/assets/pdf/POLS309_slides.pdf)
